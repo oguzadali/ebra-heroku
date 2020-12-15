@@ -24,6 +24,6 @@ app.get('/article', function (req, res) {
 })
 // app.use("/", routes)
 
-app.listen(port, () => {
-    console.log(`Blog app listening at \x1b[31mhttp://localhost:${port}\x1b[0m`)
+app.listen(PORT, () => {
+    console.log(`Blog app listening at \x1b[31mhttp://localhost:${PORT}\x1b[0m`)
 })
