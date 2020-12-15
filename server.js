@@ -23,6 +23,7 @@ app.get('/article', function (req, res) {
     res.sendFile(path.join(__dirname + '/article.html'));
 })
 // app.use("/", routes)
+// app.use("/", routes)
 
 app.listen(PORT, () => {
     console.log(`Blog app listening at \x1b[31mhttp://localhost:${PORT}\x1b[0m`)
